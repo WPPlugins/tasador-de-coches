@@ -1,0 +1,241 @@
+#wrapper-modelo, #wrapper-fecha, #wrapper-motor,
+#wrapper-potencia, #wrapper-fecha, #wrapper-kilometros,
+#wrapper-version, #wrapper-resultado{
+    display: none;
+}
+
+/* GENERAL */
+
+.mainContainer{
+    margin-bottom: 50px;
+}
+
+#contenedor .rowMargin {
+    margin-top: 60px;
+}
+
+#contenedor .rowElements {
+    margin-top: 10px;
+}
+
+#contenedor .btnActivo {
+    background-color: #b4b4b4;
+    border-color: #6b6c6d;
+    border-width: 1px;
+}
+
+#contenedor .btnNormal {
+    width: 100%;
+    border-width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 6px 6px;
+    font-size: 14px;
+}
+
+#contenedor .iconArrow {
+    font-size: 18px;
+}
+
+#contenedor .opacityContent {
+    opacity: 0.4;
+}
+
+#contenedor .cutText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* MODAL */
+#contenedor .centerTextModal {
+    text-align: center;
+}
+
+#contenedor #backgroundBodyError{
+    background-color: #f5e7e7;
+}
+
+#contenedor #backgroundBodyInfo{
+    background-color: #efefef;
+}
+
+#contenedor .textHeaderInfo {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#contenedor .textHeaderError {
+    font-size: 24px;
+    color: #a94442;
+}
+
+#contenedor .textError {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#contenedor #botonInfo {
+    background-color: #4e5256;
+    color: white;
+}
+
+/* LOADING */
+#contenedor .se-pre-con {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/loader.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    right: 50%;
+    top: 55%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 1 !important;
+}
+
+#contenedor .se-pre-result {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/loader.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/* SELECCION DE MARCAS */
+
+#contenedor .buttonRetry {
+    display: none;
+    border-width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 6px 6px;
+    font-size: 14px;
+    left: 50%;
+    right: 50%;
+    top: 70%;
+    position: absolute;
+}
+
+#contenedor #brandContainer, #contenedor #modelContainer, #contenedor #yearContainer {
+    min-height: 40px;
+}
+
+#contenedor .hideRadio {
+    display: none;
+}
+
+#contenedor #brandRow .btnBrand {
+    width: 100%;
+    padding: 12px 12px;
+    webkit-box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    -moz-box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    border-width: 1px;
+}
+#contenedor .imgBrand {
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contenedor .btnMore {
+    background-color: #4e5256;
+    border-width: 2px;
+}
+
+#contenedor .btnMore div {
+    height: 70px;
+    background-color: #4e5256;
+}
+
+#contenedor .btnMore div i {
+    font-size: 36px;
+    color: #e0dede;
+}
+
+#contenedor .btnMore div p {
+    font-size: 16px;
+    color: #e0dede;
+    line-height: initial;
+    white-space: normal;
+}
+
+/* SELECCION KM */
+
+
+#contenedor .botonKM {
+    background: #4e5256;
+    color: #e0dede;
+}
+
+#contenedor .inputs {
+    height: 34px;
+}
+
+/* RESULTADO FINAL */
+
+/*#finalResultModal .modalPosition {*/
+/*position: absolute;*/
+/*left: 50%;*/
+/*top: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*-webkit-transform: translate(-50%, -50%);*/
+/*}*/
+
+#contenedor .backgroundHeader {
+    background-color: #5f6366;
+    color: white;
+}
+
+#contenedor .backgroundHeader button {
+    color: white;
+    opacity: 0.3;
+}
+
+#contenedor #btnNew {
+    background-color: #5f6366;
+    color: white;
+    font-size: 14px;
+}
+
+#contenedor .btnSize {
+    font-size: 14px;
+}
+
+#contenedor .centerText {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 70px;
+}
+
+#contenedor .textValue {
+    font-size: 40px;
+}
+
+#contenedor #backgroundListDetail {
+    background-color: #dcdbdb;
+}
+
+#contenedor .marginFinalResult {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contenedor #botonComprobar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4e5256;
+    color: white;
+    font-size: 14px;
+}
